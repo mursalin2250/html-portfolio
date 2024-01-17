@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        .topnav{
+            background-color: #0046BE;
+            margin: 0px;
+            padding:0px;
+            height: 120px;
+        }
+        .logo{
+            vertical-align: middle;
+            width: 136px;
+            margin-left: 4%;
+            margin-top: 2.50%;
+        }
+        ::placeholder{
+            font-style: italic;
+            padding-left: 28px;
+            font-size: larger;
+            font-family: "Rubik";
+
+        }
+        .topsearchbar{
+            vertical-align: middle;
+            margin-left: 14%;
+            background: white;
+            margin-top:3%;
+            height: 40px;
+            width: 550px;
+            border: transparent;
+            display: inline-block;
+        }
+        #user{
+            height: 20px;
+            width: 20px;
+            vertical-align: middle;
+            display: inline-block;
+            padding-top: 2.50%;
+            padding-left: 13%;
+
+        }
+        #wishlist{
+            height: 25px;
+            width: 25px;
+            vertical-align: middle;
+            padding-top: 2.50%;
+            padding-left: 1.25%;
+        }
+        #cart{
+            height: 20px;
+            width: 20px;
+            vertical-align: middle;
+            padding-top: 2.50%;
+            padding-left: 1.35%;
+        }
+
+
+        h2{
+            font-family: "rubik";
+            padding-top: 1.75%;
+            padding-left: 6%;
+        }
+        th{
+            font-family: "rubik";
+            text-align: left;
+            height: 60px;
+        }
+        tr{
+            font-family: "rubik";
+            border-bottom: 1px;
+            border-style: solid;
+            border-color: #707070;
+        }
+        table{
+            border: 1px;
+            border-style: solid;
+            margin-left: 6%;
+            text-align: left;
+            border-bottom: 1px;
+            border-bottom-style: solid;
+            border-color: #707070;
+            width: 88%;
+
+        }
+        td{
+            border-top: 1px solid;
+            border-color: #707070;
+            font-family: "rubik";
+            height: 60px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        
+        <a href="index.html"><img class="logo" src="./images/logo-header-light.png" alt="#"></a>
+        <input class="topsearchbar" type="text" name="searchbar" placeholder="Search for products">
+        
+        
+        <a href="user.html"><img src="./images/user.png" alt="user" id="user"></a>
+        <a href="wishlist.html"><img src="./images/love (1).png" alt="wishlist" id="wishlist"></a>
+        <a href="cart.html"><img src="./images/shopping-bag.png" alt="cart" id="cart"></a>
+    </div>
+    <div>
+        <h2>My wishlist</h2>
+        <table>
+            <tr>
+                <th width="65%">PRODUCT NAME</th>
+                <th width="18%">UNIT PRICE</th>
+                <th>STOCK STATUS</th>
+            </tr>
+            <tr>
+                <td>No products added to the wishlist</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <style>
+        .topnav{
+            background-color: #0046BE;
+            margin: 0px;
+            padding:0px;
+            height: 120px;
+        }
+        .logo{
+            vertical-align: middle;
+            width: 136px;
+            margin-left: 4%;
+            margin-top: 2.50%;
+        }
+        ::placeholder{
+            font-style: italic;
+            padding-left: 28px;
+            font-size: larger;
+            font-family: "Rubik";
+
+        }
+        .topsearchbar{
+            vertical-align: middle;
+            margin-left: 14%;
+            background: white;
+            margin-top:3%;
+            height: 40px;
+            width: 550px;
+            border: transparent;
+            display: inline-block;
+        }
+        #user{
+            height: 20px;
+            width: 20px;
+            vertical-align: middle;
+            display: inline-block;
+            padding-top: 2.50%;
+            padding-left: 13%;
+
+        }
+        #wishlist{
+            height: 25px;
+            width: 25px;
+            vertical-align: middle;
+            padding-top: 2.50%;
+            padding-left: 1.25%;
+        }
+        #cart{
+            height: 20px;
+            width: 20px;
+            vertical-align: middle;
+            padding-top: 2.50%;
+            padding-left: 1.35%;
+        }
+
+        .message{
+            border-width: 1px;
+            border-style: solid;
+            border-color: #007cba;
+            border-radius: 4px;
+            background-color: #f4f8ff;
+            margin-top: 60px;
+            font-family: "Rubik";
+            color: #2f2f2f;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 0.85rem;
+            height: 60px;
+
+        }
+        p{
+            margin-top: 21px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        #attention{
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            background-color: #007cba;
+            vertical-align: middle;
+            border-radius: 50%;
+            border: 1px;
+            border-style: solid;
+            border-color: #007cba;
+            margin-left: 2%;
+            color: white;
+            font-size: large;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        
+        <a href="index.html"><img class="logo" src="./images/logo-header-light.png" alt="#"></a>
+        <input class="topsearchbar" type="text" name="searchbar" placeholder="Search for products">
+        
+        
+        <a href="user.html"><img src="./images/user.png" alt="user" id="user"></a>
+        <a href="wishlist.html"><img src="./images/love (1).png" alt="wishlist" id="wishlist"></a>
+        <a href="cart.html"><img src="./images/shopping-bag.png" alt="cart" id="cart"></a>
+    </div>
+    
+    <div class="message">
+        <div id="attention">i</div>
+        <p>Your cart is currently empty.</p>
+    </div>
+</body>
+</html>

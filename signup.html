@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        .topnav{
+            background-color: #0046BE;
+            margin: 0px;
+            padding:0px;
+            height: 120px;
+        }
+        .logo{
+            vertical-align: middle;
+            width: 136px;
+            margin-left: 4%;
+            margin-top: 2.50%;
+        }
+        ::placeholder{
+            font-style: italic;
+            padding-left: 28px;
+            font-size: larger;
+            font-family: "Rubik";
+
+        }
+        .topsearchbar{
+            vertical-align: middle;
+            margin-left: 14%;
+            background: white;
+            margin-top:3%;
+            height: 40px;
+            width: 550px;
+            border: transparent;
+            display: inline-block;
+        }
+        #user{
+            height: 20px;
+            width: 20px;
+            vertical-align: middle;
+            display: inline-block;
+            padding-top: 2.50%;
+            padding-left: 13%;
+
+        }
+        #wishlist{
+            height: 25px;
+            width: 25px;
+            vertical-align: middle;
+            padding-top: 2.50%;
+            padding-left: 1.25%;
+        }
+        #cart{
+            height: 20px;
+            width: 20px;
+            vertical-align: middle;
+            padding-top: 2.50%;
+            padding-left: 1.35%;
+        }
+        .laptop-banner{
+            margin-top: 2%;
+            margin-left: 3%;
+        }
+        .router-banner{
+            height: 18.75rem;
+        }
+        .left{
+            font-family: "rubik";
+            margin-left: 32%;
+            
+        }
+        h2{
+            margin-top: 4%;
+        }
+        legend{
+            font-size: 0.95rem;
+            margin-bottom: 1%;
+        }
+        input.left{
+            border: 1px;
+            border-style: solid;
+            border-color: #a5a5a5;
+            border-radius: 2px;
+            height: 42px;
+            width: 450px;
+            margin-bottom: 2%;
+            
+        }
+        #login{
+            background-color: black;
+            border: 1px;
+            border-style: solid;
+            font-size: medium;
+            width: 15%;
+            color: white;
+        }
+        #remember{
+            border-color: #a5a5a5;
+            vertical-align: middle;
+            margin-left: 3%;
+        }
+        label{
+            font-family: "rubik";
+            font-size: small;
+            color: #636363;
+        }
+        p{
+            display: inline;
+            
+        }
+        a{
+            color: #0046BE;
+            text-decoration: none;
+        }
+        .left1{
+            font-family: "rubik";
+            border: 1px;
+            border-style: solid;
+            border-color: #a5a5a5;
+            border-radius: 2px;
+            height: 42px;
+            margin-bottom: 2%;
+        }
+        .button {
+            background: black;
+            color: white;
+            border-style: outset;
+            border-color: transparent;
+            height: 50px;
+            width: 100px;
+            font:"rubik";
+            text-shadow: none;
+            border-radius: 4px;
+            }
+        
+        
+
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        
+        <a href="index.html"><img class="logo" src="./images/logo-header-light.png" alt="#"></a>
+        <input class="topsearchbar" type="text" name="searchbar" placeholder="Search for products">
+        
+        
+        <a href="user.html"><img src="./images/user.png" alt="user" id="user"></a>
+        <a href="wishlist.html"><img src="./images/love (1).png" alt="wishlist" id="wishlist"></a>
+        <a href="cart.html"><img src="./images/shopping-bag.png" alt="cart" id="cart"></a>
+        
+    </div>
+    <div>
+        <h2 class="left">REGISTER</h2>
+        <br>
+        <legend class="left">Email address</legend>
+        <input class="left" id="left" type="email" name="email" required><br>
+        <legend class="left">Password</legend>
+        <input class="left" id="left" type="password" name="password" required><br>     
+    </div>
+    <div class="left">
+        <p>Your personal data will be used to support your experience throughout <br> this website, to manage access to your account, and for other purposes <br> described in our privacy policy.</p><br><br>
+        <input  class="button" type="submit" value="REGISTER">
+    </div>
+
+</body>
+</html>
